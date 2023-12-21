@@ -8,7 +8,7 @@ The group of Web Geek interns
 
 -> Interns works would be in **/projects/intern-name/** folder
 
--> Tutorial codes would be in **/tutorial/programming-language/** folder
+-> Tutorial codes would be in **/tutorials/programming-language/** folder
 
 -> Challanges would be in **/challanges/programming-language/challange-name/** folder 
 
