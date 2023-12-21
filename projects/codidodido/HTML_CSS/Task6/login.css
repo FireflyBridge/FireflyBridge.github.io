@@ -1,0 +1,89 @@
+.container{
+    
+}
+
+.backgroundCircle{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0%;
+    left: 25%;
+    border-radius: 50%;
+    background-color: green;
+    z-index: -1;
+}
+
+.form{
+    position: absolute;
+    width: max-content;
+    display: flex;
+    top: 25%;
+    left: 20%;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid transparent;
+    border-radius: 25px;
+    padding: 15px;
+    box-shadow: 0px 0px 25px black;
+}
+
+.form img{
+    width: 25%;
+    height: 25%;
+    border-radius: 25px;
+}
+
+.form form{
+    margin: 0px 5px;
+    width: 100%;
+    padding: 10px;
+}
+
+.form form h1{
+    color:rgb(0, 128, 255);
+    animation: anim 5s ease-in infinite;
+}
+
+.form form input[type=text],input[type=password],input[type=email]{
+    width: 100%;
+    border: 1px dashed rgb(0, 128, 255);
+    margin: 5px 0 10px;
+    padding: 14px 0px 14px 14px;
+    border-radius: 3px;
+    font-size: 14px;
+    color: rgb(0, 128, 255);
+}
+
+.form form input[type=submit]{
+    width: 100%;
+    border: 1px solid rgb(0, 128, 255);
+    background-color: transparent;
+    color: rgb(0, 128, 255);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 14px;
+    border-radius: 3px;
+    margin: 10px 0px;
+    transition: 0.5s;
+}
+
+.form form input[type=submit]:hover{
+    background-color: rgb(0, 128, 255);
+    color: yellow;
+    cursor: pointer;
+}
+
+.form form a{
+    text-decoration: none;
+}
+
+
+.form form a:hover{
+    color: red;
+}
+
+@keyframes anim {
+    0%{color:rgb(0, 128, 255);}
+    50%{color:green;}
+    100%{color:rgb(0, 128, 255);}
+}

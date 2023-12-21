@@ -1,0 +1,84 @@
+*{
+    transition: 0.5s ease;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    background-image: url("stadium.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    position: absolute;
+    width: max-content;
+    top: 25%;
+    left: 30%;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: auto;
+    box-shadow: 0px 0px 25px black;
+}
+
+table:hover{
+    transform: scale(1.2);
+}
+
+
+caption {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+td{
+    text-shadow: -5px 0px 8px black;
+}
+
+td:hover{
+    transform: translateX(10px);
+    text-shadow: -15px 0px 10px black;
+}
+
+th {
+    background-color: green;
+    color: #fff;
+}
+
+tr:nth-child(2) {
+    background-color: gold ;
+}
+
+tr:nth-child(3){
+    background-color: gray;
+}
+
+tr:nth-child(4){
+    background-color: coral;
+}
+
+tr:nth-child(5){
+    background-color: white;
+}
+
+td:first-child {
+    font-weight: bold;
+}
+
+td:nth-child(2) {
+    text-align: left;
+}
+
+td:last-child {
+    font-weight: bold;
+}
