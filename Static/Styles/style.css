@@ -1,19 +1,19 @@
 /* import fonts -- start */
 @font-face {
     font-family: Vazir;
-    src: url(./Static/Font/Vazir-Bold.ttf) format("truetype");
+    src: url(../Font/Vazir-Bold.ttf) format("truetype");
     font-weight: bold;
 }
 
 @font-face {
     font-family: Vazir;
-    src: url(./Static/Font/Vazir.ttf) format("truetype");
+    src: url(../Font/Vazir.ttf) format("truetype");
     font-weight: 500;
 }
 
 @font-face {
     font-family: Vazir;
-    src: url(./Static/Font/Vazir-Thin.ttf) format("truetype");
+    src: url(../Font/Vazir-Thin.ttf) format("truetype");
     font-weight: lighter;
 }
 
@@ -247,7 +247,7 @@ nav ul {
         -moz-border-radius: 15px;
         -ms-border-radius: 15px;
         -o-border-radius: 15px;
-}
+    }
 
     .menu li.drop.active ul.dropdown {
         max-height: 500px;
@@ -261,6 +261,7 @@ nav ul {
         background-color: rgb(232, 232, 232);
         color: black;
     }
+
     .menu li a {
         justify-content: center;
     }
