@@ -1,0 +1,1128 @@
+
+@font-face {
+  font-family: 'نام-فونت';
+  src: url('./font/Byekan.ttf') format('woff2'),
+       
+  /* سایر خاصیت‌های مورد نیاز مانند font-weight و font-style */
+}
+
+body {
+    
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:'نام-فونت', سایر-فونت‌ها, sans-serif ;
+  
+  }
+  .sam{
+    background-color: #c23535;
+  }
+  .head-nav{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+      width: 100%;
+      background-color: #c23535;
+      height: 10rem;
+      position: relative;
+    
+  }
+  .head-nav h1{
+    color: black;
+    position: absolute;
+    top:5%;left: 45%;right: 43%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 3px 3px 0 yellow,
+    -3px -3px 0 #c9c42a,  
+    3px -3px 0 yellow,
+   -3px  3px 0 yellow,
+    3px  3px 0 yellow;
+  }
+    .head-nav1 .left .tag-a{
+      text-decoration: none;
+      color: black;
+    }
+    .head-nav1 .left{
+      
+    background-color: #c23535;
+    color: white;
+    width: 100%;
+        height:150px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+
+    }
+
+
+    .head-nav1 .left .tag-a {
+    width: 12%;
+   
+
+      
+  
+}
+.head-nav1 .left .tag-a .pic{
+  width:30%;
+  height: 25%;
+  margin: 10% -3%;
+}
+.head-nav1 .left .tag-a .titr{
+  width:30%;
+  height: 20%;
+
+  margin: 2%  -25%;
+  color: white;
+
+}
+.head-nav1 .left .tag-a .titr:hover{
+
+  color: black;
+
+}
+  .head-nav .right{
+  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.head-nav .right .icon{
+   
+  margin: 0;
+  padding: 80px 5px;
+} 
+
+
+
+
+
+.head-nav .right .input-search input{
+  text-align: center;
+  height: 16px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: #a7a4a4ee;
+  border: 2px solid #eee;  background-color: white;
+  
+}
+.fa-shopping-cart,.fa-search,.fa,.fa-bars{
+  color: #eee;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ شروع بخش حرکت اسلاید ها
+*/
+.move{
+  background-color:white;
+}
+  
+  #slideshow {
+    text-align: center;
+    overflow: hidden;
+    height: 510px;
+    width: 728px;
+    margin: 0 auto;
+  }
+  
+  .slide-wrapper {
+    width: 2912px;
+    -webkit-animation: slide 18s ease infinite;
+  }
+  
+  .slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+  }
+  
+  .slide:nth-child(1) {
+    background: url(./imgag/غذای\ سنتی\ 2.PNG);
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  
+  .slide:nth-child(2) {
+    background: url(./imgag/غذای-سنتی-ایرانی.jpg);
+
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+  }
+  
+  .slide:nth-child(3) {
+    background: url(./imgag/عکس-ابگوشت-محلی.jpg);
+
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
+  .slide:nth-child(4) {
+    background: url(./imgag/خورش-فسنجان.jpg);
+    
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .slide  .a1{
+    background-color:rgb(255, 255, 255);
+    text-decoration: none;
+    color:black;
+    border: 1px solid black;
+    border-radius: 2%;
+    float:right;
+    margin: 53% 2%;
+    transition: 1s;
+    padding: 1%;
+
+
+}
+.slide  .a1:hover{
+    background-color:black;
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    border-radius: 2%;
+    float: right;
+    margin: 53% 2%;
+    float: top;
+    padding: 1%;
+    transition: 1s;
+    
+}
+.slide  .a2{
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
+  color:black;
+  border: 1px solid black;
+    border-radius: 2%;
+    float: left;
+    margin: 53% 2%;
+    transition: 1s;
+    padding: 1%;
+}
+.slide .a2:hover{
+    background-color:black;
+    text-decoration: none;
+    color:white;
+    border: 1px solid black;
+    border-radius: 2%;
+    float: left;
+    margin: 53% 2%;
+    float: top;
+    padding: 1%;
+    transition: 1s;
+
+}
+.slide  .a3{  
+  background-color:rgb(255, 255, 255);
+  text-decoration: none;
+  color:black;
+  border: 1px solid black;
+    text-decoration: none;
+    border-radius: 2%;
+    float: right;
+    margin: 54% 4%;
+    transition: 1s;
+    padding: 1%;
+}
+.slide  .a3:hover{
+    background-color: black;
+    text-decoration: none;
+    color:  white;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 2%;
+    float: right;
+    margin: 54% 4%;
+    padding: 1%;
+    transition: 1s;
+
+}
+.slide  .a4{
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
+  color:black;
+  border: 1px solid black;
+    border: 1px solid black;
+     border-radius: 2%;
+    float: right;
+    margin: 54% 5%;
+    transition: 1s;
+    padding: 1%;
+
+
+}
+.slide  .a4:hover{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+     border-radius: 2%;
+    float: right;
+    margin: 54% 5%;
+   transition: 1s;
+    padding: 1%;
+
+
+}
+
+
+
+
+
+
+
+
+  
+  @-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -728px;}
+    50% {margin-left: -728px;}
+    60% {margin-left: -1456px;}
+    70% {margin-left: -1456px;}
+    80% {margin-left: -2184px;}
+    90% {margin-left: -2184px;}
+  }
+  
+
+
+  /*
+پایان بخش حرکت اسلاید ها
+  */
+
+.team{
+  position: absolute;
+  top: 840px;
+margin: 0;
+  direction: rtl;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.res {
+  
+    align-items: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5%;
+
+}
+
+.res img {
+    border-radius: 50%;
+    height: 170px;
+    margin-right: 5%;
+    margin-top: 2%;
+    width: 170px;
+
+}
+
+.res1,
+.res2,
+.res3 {
+    box-shadow: 5px 5px 20px rgb(197, 35, 35);
+    display: inline-block;
+}
+
+text {
+    align-items: center;
+}
+
+.line {
+    align-items: center;
+    background-color:#c23535;
+    display: flex;
+    height: 50%;
+    width: auto;
+}
+
+.line .pic1 {
+    align-items: baseline;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.443);
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    margin-right: 6.5%;
+    margin-top: 0%;
+    width: auto;
+}
+
+@font-face {
+    font-family: Sogand;
+    src: url(Sogand.ttf);
+}
+
+.line {
+    color:white;
+    font-family: Sogand;
+    font-size: 2em;
+    padding-right: 1%;
+}
+
+.star {
+    color: gold;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 0.5%;
+    margin-right: 80%;
+}
+
+.new {
+    border: .05em dashed#c23535;
+    color:black;
+    display: flex;
+    font-family: Sogand;
+    font-size: 5em;
+    justify-content: center;
+    margin: 1em auto;
+    width: 20%;
+}
+
+.poshtibani {
+    background-image: url("icon.png");
+    background-size: cover;
+    height: 50px;
+    left: 5em;
+    position: fixed;
+    top: 86%;
+    width: 100px;
+}
+
+.poshtibani img {
+    border-radius: 40%;
+    width: 10em;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.369);
+    color: rgba(0, 0, 0, 0.333);
+    display: flex;
+    font-size:2em;
+}
+
+.res1 img {
+    float: right;
+}
+.res2 img {
+    float: right;
+}
+.res3 img {
+    float: right;
+}
+.name{
+    display: flex;
+    margin-top: 5%;
+    font-size: 2em;
+    padding-right: 20px;
+
+ 
+}
+.ad{
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 990px){
+  
+
+  .head-nav{
+    width: 100%;
+  }
+  .footer {
+    font-size: 15px;
+  }
+
+  
+  
+  .head-nav h1{
+    color: black;
+    position: absolute;
+    font-size: 22px;
+    top:12%;left: 43%;right: 43%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 0 yellow,
+    -1px -1px 0 #c9c42a,  
+    1px -1px 0 yellow,
+    -1px  1px 0 yellow,
+    1px  1px 0 yellow;
+  }
+  .head-nav .right .input-search input{
+    text-align: center;
+    height: 16px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #a7a4a4ee;
+    border: 2px solid #eee;  background-color: white;
+    
+  }
+  .fa-shopping-cart,.fa-search,.fa,.fa-bars{
+    color: #eee;
+    
+  }
+
+  .new{
+    font-size: 40px;
+  }
+ 
+
+ .head-nav1 .left .tag-a{
+      text-decoration: none;
+      color: black;
+    }
+    .head-nav1 .left{
+      
+    background-color: #b43434;
+    color: white;
+    width: 100%;
+        height:620px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+
+    }
+
+
+    .head-nav1 .left .tag-a {
+    width:20%;
+    height: 20%;
+    margin: 1%;
+      
+}
+.head-nav1 .left .tag-a .pic{
+  width:30%;
+  height: 40%;
+ margin: 20% 10%;
+}
+.head-nav1 .left .tag-a .titr{
+
+  margin: 10% -40%;
+  width: 10%;
+  font-size: 28px;
+  
+  color: white;
+
+}
+.head-nav1 .left .tag-a .titr:hover{
+  color: rgb(0, 0, 0);
+
+}
+  .head-nav .right{
+  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.head-nav .right .icon{
+   
+  margin: 0;
+  padding: 80px 5px;
+} 
+
+
+
+
+
+.team{
+  position: absolute;
+  top: 1100px;
+ 
+  direction: rtl;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.poshtibani  {
+  margin-left: 10%;
+  width:  30px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*
+ شروع اسلاید
+ */
+ 
+  #slideshow {
+    text-align: center;
+    overflow: hidden;
+    height: 310px;
+    width: 528px;
+    margin: 0 auto;
+  }
+  
+  .slide-wrapper {
+    width: 2512px;
+    -webkit-animation: slide 18s ease infinite;
+  }
+  
+  .slide {
+    float: left;
+    height: 310px;
+    width: 528px;
+  }
+  
+  .slide:nth-child(1) {
+    background: url(./imgag/غذای\ سنتی\ 2.PNG);
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  
+  .slide:nth-child(2) {
+    background: url(./imgag/غذای-سنتی-ایرانی.jpg);
+
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+  }
+  
+  .slide:nth-child(3) {
+    background: url(./imgag/عکس-ابگوشت-محلی.jpg);
+
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
+  .slide:nth-child(4) {
+    background: url(./imgag/خورش-فسنجان.jpg);
+    
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .slide  .a1{
+    background-color:rgb(255, 255, 255);
+    text-decoration: none;
+    color:black;
+    border: 1px solid black;
+    border-radius: 2%;
+    float:right;
+    margin: 50% 2%;
+    transition: 1s;
+    padding: 1%;
+
+
+}
+.slide  .a1:hover{
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  border: 1px solid black;
+    border-radius: 2%;
+    float: right;
+    margin: 50% 2%;
+    float: top;
+    padding: 1%;
+    transition: 1s;
+    
+}
+.slide  .a2{
+  background-color:rgb(255, 255, 255);
+  text-decoration: none;
+  color:black;
+  border: 1px solid black;
+    border-radius: 2%;
+    float: left;
+    margin: 50% 2%;
+    transition: 1s;
+    padding: 1%;
+}
+.slide .a2:hover{
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  border: 1px solid black;
+    border-radius: 2%;
+    float: left;
+    margin: 50% 2%;
+    float: top;
+    padding: 1%;
+    transition: 1s;
+
+}
+.slide  .a3{ 
+  background-color:rgb(255, 255, 255);
+  text-decoration: none;
+  color:black;
+  border: 1px solid black;
+    text-decoration: none;
+    border-radius: 2%;
+    float: right;
+    margin: 50% 4%;
+    transition: 1s;
+    padding: 1%;
+}
+.slide  .a3:hover{
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  border: 1px solid black;
+    border: 1px solid black;
+    border-radius: 2%;
+    float: right;
+    margin: 50% 4%;
+    padding: 1%;
+    transition: 1s;
+
+}
+.slide  .a4{  
+  background-color:rgb(255, 255, 255);
+  text-decoration: none;
+  color:black;
+  border: 1px solid black;
+    text-decoration: none;
+     border-radius: 2%;
+    float: right;
+    margin: 50% 5%;
+    transition: 1s;
+    padding: 1%;
+
+
+}
+.slide  .a4:hover{
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  border: 1px solid black;
+     border-radius: 2%;
+    float: right;
+    margin: 50% 5%;
+   transition: 1s;
+    padding: 1%;
+}
+
+
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -528px;}
+  50% {margin-left: -528px;}
+  60% {margin-left: -1056px;}
+  70% {margin-left: -1056px;}
+  80% {margin-left: -1584px;}
+  90% {margin-left: -1584px;}
+}
+}
+
+
+
+
+  
+  
+/*
+پایان اسلاید 
+*/
+
+
+
+
+
+@media screen and (max-width: 700px){
+  .head-nav{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+      width: 700px;
+     height:  300px;
+      background-color: #c23535;
+      position: relative;
+    
+  }
+  .footer {
+    display: none; }
+  .sam{
+    background-color: #c23535;
+    width: 700px;
+  }
+  .head-nav h1{
+    color: black;
+    position: absolute;
+    top:0%;left: 30%;right: 30%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 0 yellow,
+    -1px -1px 0 #c9c42a,  
+    0px -0px 0 yellow,
+   -0px  0px 0 yellow,
+    0px  0px 0 yellow;
+    font-size: 50px;
+  }
+ 
+  .head-nav .right{
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+   }
+.head-nav .right .icon{
+  margin: 10% 1%;  
+ 
+} 
+
+
+
+
+
+.head-nav .right .input-search input{
+  text-align: center;
+  height: 30px;
+  width: 210px;
+  border-radius: 10px;
+  background-color: #a7a4a4ee;
+  border: 2px solid #eee;  background-color: white;
+  
+}
+.fa-shopping-cart,.fa-search,.fa,.fa-bars{
+  color: #eee;
+  font-size: 40px;
+}
+
+.head-nav1 .left .tag-a{
+  width: 20%;
+  text-decoration: none;
+  color: black;
+}
+.head-nav1 .left{
+  
+background-color: #b43434;
+color: white;
+width: 700px;
+    height:2900px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap: 1.5em;
+
+
+}
+
+
+.head-nav1 .left .tag-a {
+width:20%;
+height: 20%;
+margin:10% 40%;
+  
+}
+.head-nav1 .left .tag-a .pic{
+width:70%;
+height: 130%;
+padding: 1% 10%;
+}
+.head-nav1 .left .tag-a .titr{
+
+  margin: 10%;
+width: 10%;
+font-size: 50px;
+
+color: white;
+
+}
+.head-nav1 .left .tag-a .titr:hover{
+color: rgb(0, 0, 0);
+
+}
+.new{
+  font-size: 50px;
+}
+.team{
+  position: absolute;
+  top: 3760px;
+  margin-right: -120%;
+  direction: rtl;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#slideshow {
+  text-align: center;
+  overflow: hidden;
+  height: 510px;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 2912px;
+  -webkit-animation: slide 18s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+
+.slide:nth-child(1) {
+  background: url(./imgag/غذای\ سنتی\ 2.PNG);
+
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.slide:nth-child(2) {
+  background: url(./imgag/غذای-سنتی-ایرانی.jpg);
+
+
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+
+.slide:nth-child(3) {
+  background: url(./imgag/عکس-ابگوشت-محلی.jpg);
+
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.slide:nth-child(4) {
+  background: url(./imgag/خورش-فسنجان.jpg);
+  
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slide  .a1{
+  background-color:rgb(255, 255, 255);
+    text-decoration: none;
+    color:black;
+    border: 1px solid black;
+  border-radius: 2%;
+  float:right;
+  margin: 53% 2%;
+  transition: 1s;
+  padding: 1%;
+
+
+}
+.slide  .a1:hover{
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  border: 1px solid black;
+  border-radius: 2%;
+  float: right;
+  margin: 53% 2%;
+  float: top;
+  padding: 1%;
+  transition: 1s;
+  
+}
+.slide  .a2{
+  background-color:rgb(255, 255, 255);
+  text-decoration: none;
+  color:black;
+  border: 1px solid black;
+  border-radius: 2%;
+  float: left;
+  margin: 53% 2%;
+  transition: 1s;
+  padding: 1%;
+}
+.slide .a2:hover{
+  background-color: black;
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+  border-radius: 2%;
+  float: left;
+  margin: 53% 2%;
+  float: top;
+  padding: 1%;
+  transition: 1s;
+
+}
+.slide  .a3{  
+  background-color:rgb(255, 255, 255);
+  text-decoration: none;
+  color:black;
+  border: 1px solid black;
+  text-decoration: none;
+  border-radius: 2%;
+  float: right;
+  margin: 54% 4%;
+  transition: 1s;
+  padding: 1%;
+}
+.slide  .a3:hover{
+  background-color: black;
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+  border: 1px solid black;
+  border-radius: 2%;
+  float: right;
+  margin: 54% 4%;
+  padding: 1%;
+  transition: 1s;
+
+}
+.slide  .a4{
+  background-color:rgb(255, 255, 255);
+  text-decoration: none;
+  color:black;
+  border: 1px solid black;
+  border: 1px solid black;
+   border-radius: 2%;
+  float: right;
+  margin: 54% 5%;
+  transition: 1s;
+  padding: 1%;
+
+
+}
+.slide  .a4:hover{
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  border: 1px solid black;
+   border-radius: 2%;
+  float: right;
+  margin: 54% 5%;
+ transition: 1s;
+  padding: 1%;
+
+
+}
+
+
+
+
+
+
+
+
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -728px;}
+  50% {margin-left: -728px;}
+  60% {margin-left: -1456px;}
+  70% {margin-left: -1456px;}
+  80% {margin-left: -2184px;}
+  90% {margin-left: -2184px;}
+}
+
+
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .other {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+    margin-top:7%;
+    direction: rtl;
+}
+
+.section {
+    background-color: rgba(26, 24, 24, 0.075);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:15%;
+    font-size: 16px;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+img {
+    width: 70%;
+    height: auto;
+    padding-top: 10px;
+}
+.plus{
+    width: 20px;
+    color: rgba(0, 128, 0, 0.507);
+}
+.minus{
+    width: 20px;
+    color: rgba(255, 0, 0, 0.418);
+}
+ .continer{
+    display: flex;
+   font-size:1em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    
+
+}
+.add{
+    display: flex;
+    background-color: rgba(255, 0, 0, 0.603);
+    padding: 3px;
+    border-radius: 5%;
+    margin-left: 20px;
+    color: white;
+    font-size: 1.4em;
+    box-shadow: 4px 5px 5px  rgba(0, 0, 0, 0.267);
+}
+.section .title{
+ font-size: 1.7em;
+align-items: center;
+}
+.section .description{
+ color: rgba(0, 0, 0, 0.664);
+}
+
+.star {
+    font-size: 1em; 
+    display: flex;
+    align-items: center;
+ }
+ .star i{
+    color:gold;
+
+ }
+ .middle{
+    display: flex;
+    font-size: 1.5em;
+  
+  
+ }
+ .price{
+    margin-left: 40px;
+    font-weight: bold;
+
+ }
+ .middle i{
+    margin-left: 0%;
+ }
+ 
+
+@media only screen and (max-width: 600px) {
+    .other {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, auto);
+    }
+    .text{
+        font-size:1.9em;
+     }
+}
+    </style>
+</head>
+<body>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="other">
+        <div class="section">
+            <img src="./اسامی-میوه-های-استوایی.jpg" alt="image">
+            <p class="title">میوه های استوایی</p>
+            <p class="description">تنوع بسیار بالایی دارند و فقط به موز و آناناس و دراگون فروت محدود نیستند</p>
+            <div class="middle">
+                <span class="price">250 هزار تومان</span>
+             <div class="star">3.9<i class="fa fa-star"></i></div>
+            </div>
+            <div class="continer">
+                <div class="add">افزودن به سبد خرید</div>
+                <span class="plus"><i class="fa fa-plus-circle"></i></span> 1
+                <span class="minus"><i class="fa fa-minus-circle"></i></span>
+            </div>
+            
+    </div>
+    <div class="section">
+        <img src="./میوه خشک.webp" alt="image">
+        <p class="title">میوه خشک</p>
+        <p class="description"> کشمش سبز تیزابی، برگهٔ آلو بخارا، قیسی خشک، برگه هلو، برگه زردآلو ، برگه آلو، برگه آلوچه و برگه آلبالو، خرما، انجیر خشک.</p>
+        <div class="middle">
+            <span class="price">400 هزار تومان</span>
+         <div class="star">4.2<i class="fa fa-star"></i></div>
+        </div>
+        <div class="continer">
+            <div class="add">افزودن به سبد خرید</div>
+            <span class="plus"><i class="fa fa-plus-circle"></i></span> 1
+            <span class="minus"><i class="fa fa-minus-circle"></i></span>
+        </div>
+            
+    </div>
+        <div class="section">
+            <img src="./میوه-های-هر-فصل-انواع-میوه-2.jpg" alt="image">
+            <p class="title">میوه های چهار فصل</p>
+            <p class="description"> معرفی میوه های هر فصل، با خوشمزه و کمیاب ترین میوه ها </p>
+            <div class="middle">
+                <span class="price">300 هزار تومان</span>
+             <div class="star">4.5<i class="fa fa-star"></i></div>
+            </div>
+            <div class="continer">
+                <div class="add">افزودن به سبد خرید</div>
+                <span class="plus"><i class="fa fa-plus-circle"></i></span> 1
+                <span class="minus"><i class="fa fa-minus-circle"></i></span>
+            </div>
+            
+ </div>
+    </div>
+    
+</body>
+</html>
+    
+</body>
+</html>
