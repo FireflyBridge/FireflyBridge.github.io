@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task8</title>
+
+ <style>
+     
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    justify-self: center;
+    align-items: center;
+    background: darkgray;
+    margin-left: 390px;
+}
+
+.slider{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    justify-self: center;
+    align-items: center;
+    display: flex;
+}
+
+.img-slide{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.img-slider{
+    width: 500%;
+    height: 500px;
+    display: flex;
+    animation: slide 25s infinite;
+}
+
+.img-slider input{
+    display: none;
+}
+
+.cover{
+    width: 20%;
+    transition: 2s;
+}
+
+.cover img{
+    width: 800px;
+    height: 500px;
+}
+
+@keyframes slide {
+    0%{
+        transform: translateX(0%);
+    }
+    20%{
+        transform: translateX(-20%);
+    }
+    40%{
+        transform: translateX(-40%);
+    }
+    60%{
+        transform: translateX(-60%);
+    }
+    80%{
+        transform: translateX(-80%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+ </style>
+
+</head>
+
+<body>
+<section class="slider">
+    
+    <div class="img-slide">
+
+        <div class="img-slider">
+
+                <input type="radio" name="input-radio" id="radio1">
+                <input type="radio" name="input-radio" id="radio2">
+                <input type="radio" name="input-radio" id="radio3">
+                <input type="radio" name="input-radio" id="radio4">
+
+                <div class="cover first">
+                    <img src="https://cdn.fararu.com/files/fa/news/1401/9/27/1409312_253.jpeg">
+                </div>
+            
+                <div class="cover">
+                    <img src="https://static1.bartarinha.ir/servev2/Dc4NDI0YWEwY/5Uwvb7W7Zm0,/file.jpg">
+                </div>
+
+                <div class="cover">
+                    <img src="https://cdn.fararu.com/files/fa/news/1401/9/27/1409307_526.jpg">
+                </div>
+
+                <div class="cover">
+                    <IMG src="https://cdn.fararu.com/files/fa/news/1401/9/27/1409310_786.jpg">
+                </div>
+
+                <div class="cover">
+                    <img src="https://media.imna.ir/d/2023/11/05/3/1939361.jpg?ts=1699184449000">
+                </div>
+            
+
+    </div>
+    
+</section>
+
+</body>
+</html>
