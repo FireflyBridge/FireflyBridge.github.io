@@ -1,59 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./Static/Styles/reset.css" />
+		<link rel="stylesheet" href="./Static/Styles/style.css" />
+		<link rel="stylesheet" href="./Static/Styles/ProjectsPageStyle.css" />
+		<title>Projects - Firefly</title>
+	</head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="./Static/Styles/reset.css" />
-	<link rel="stylesheet" href="./Static/Styles/style.css" />
-	<link rel="stylesheet" href="./Static/Styles/ProjectsPageStyle.css" />
-	<title>پروژه ها</title>
-</head>
+	<body dir="rtl">
+		<header>
+			<button class="menu-collapse">
+				<img src="./Static/Icon/menu.svg" alt="Menu Icon" />
+			</button>
 
-<body dir="rtl">
-	<header>
-		<button class="menu-collapse">
-			<img src="./Static/Icon/menu.svg" alt="Menu Icon" />
-		</button>
+			<div class="logo">
+				<h1>
+					<a href="https://fireflybridge.github.io/"><span>Fire</span>fly</a>
+				</h1>
+			</div>
 
-		<div class="logo">
-			<h1>WebGeeks</h1>
+			<nav>
+				<ul class="menu">
+					<li><a href="index.html">صفحه اصلی</a></li>
+
+					<li class="drop">
+						<button class="icon">
+							<img src="./Static/Icon/arrow-next.svg" alt="menu arrow" />
+						</button>
+						<a href="#">آموزش ها</a>
+						<ul class="dropdown">
+							<li><a href="tutorials/HTML_CSS/index.html">HTML/CSS</a></li>
+							<li><a href="tutorials/JS/index.html">JS</a></li>
+						</ul>
+					</li>
+
+					<li><a href="projects.html">پروژه ها</a></li>
+
+					<li><a href="about.html">درباره ما</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="interns" dir="ltr">
+			<ul>
+				<div class="head">
+					<h1>Interns</h1>
+				</div>
+				<li class="intern">
+					<a href="projects/codidodido/index.html">> Codidodido</a>
+				</li>
+				<li class="intern"><a href="projects/sam/index.html">> Sam</a></li>
+				<li class="intern">
+					<a href="projects/Alireza_dan/index.html">> Alireza Dan</a>
+				</li>
+				<li class="intern">
+					<a href="projects/nabati/index.html">> Nabatizadeh</a>
+				</li>
+			</ul>
 		</div>
 
-		<nav>
-			<ul class="menu">
-				<li><a href="index.html">صفحه اصلی</a></li>
-
-				<li class="drop">
-					<button class="icon"><img src="./Static/Icon/arrow-next.svg" alt="menu arrow"></button>
-					<a href="#">آموزش ها</a>
-					<ul class="dropdown">
-						<li><a href="tutorials/HTML_CSS/index.html">HTML/CSS</a></li>
-						<li><a href="tutorials/JS/index.html">JS</a></li>
-					</ul>
-				</li>
-
-				<li><a href="projects.html">پروژه ها</a></li>
-
-				<li><a href="about.html">درباره ما</a></li>
-			</ul>
-		</nav>
-	</header>
-
-	<div class="interns" dir="ltr">
-		<ul>
-			<div class="head">
-				<h1>Interns</h1>
-			</div>
-			<li class="intern"><a href="projects/codidodido/index.html">> Codidodido</a></li>
-			<li class="intern"><a href="projects/sam/index.html">> Sam</a></li>
-			<li class="intern"><a href="projects/Alireza_dan/index.html">> Alireza Dan</a></li>
-			<li class="intern"><a href="projects/nabati/index.html">> Nabatizadeh</a></li>
-		</ul>
-	</div>
-
-	<script src="./Static/JS/app.js"></script>
-</body>
-
+		<script src="./Static/JS/app.js"></script>
+	</body>
 </html>

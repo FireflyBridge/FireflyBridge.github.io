@@ -141,14 +141,20 @@ nav ul {
 .logo h1 {
     cursor: pointer;
     color: #5D3587;
-    background-color: #fff;
+    color: #f8f2ff;
+    background-color: #6e40a0;
     padding: 14px;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
     font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.logo span {
+    color: #FFC436;
 }
 
 .menu-collapse {
