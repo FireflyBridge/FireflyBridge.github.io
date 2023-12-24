@@ -1,24 +1,26 @@
-.interns{
-    width:75%;
+.interns {
+    width: 75%;
     margin: 25px auto;
     padding: 15px;
 }
 
-.head{
+.head {
     margin: 50px 0px;
-    font-size: 36px;
+    font-size: 4rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:purple;
+    color: purple;
 }
 
-.intern{
+.intern {
     display: block;
     position: relative;
     width: max-content;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 25px 0;
+    font-size: 1.9rem;
 }
 
-.intern::before{
+.intern::before {
     content: "";
     position: absolute;
     bottom: -5px;
@@ -29,7 +31,18 @@
     transition: .5s ease-out;
 }
 
-.intern:hover::before{
+.intern:hover::before {
     width: 100%;
     transition: .5s ease-in;
+}
+
+@media screen and (max-width: 650px) {
+    .head {
+        text-align: center;
+    }
+    .intern {
+        margin: 25px auto;
+        /* width: 100%;
+        text-align: center; */
+    }
 }
