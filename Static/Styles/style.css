@@ -172,6 +172,34 @@ nav ul {
     display: none;
 }
 
+.projects-menu {
+    width: 80%;
+    margin: 50px auto;
+    direction: ltr;
+    font-size: 1.3rem;
+}
+
+.projects-menu h1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+}
+
+.projects-menu a,
+.projects-menu li a {
+    display: inline-block;
+}
+
+.projects-menu li a {
+    width: 100%;
+    margin: 15px 0;
+    padding: 10px;
+}
+
+.projects-menu a:hover {
+    color: #592e87;
+}
+
 @media screen and (max-width: 650px) {
     header {
         flex-direction: column;
