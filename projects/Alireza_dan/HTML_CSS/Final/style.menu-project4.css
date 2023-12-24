@@ -1,0 +1,302 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body,
+html{
+    height: 100%;
+    margin: 0;
+    background-color: rgb(0,0,0);
+}
+
+header{
+    background-image: url("https://www.jowhareh.com/images/Jowhareh/galleries_2/poster_9b004c6c-1912-4c31-904d-598f7f8f34fd.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 9vh;
+    min-height: 65px;
+    direction: rtl;
+    width: 100%;
+    min-width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+
+nav {
+    display: flex;
+    float: right;
+}
+
+.menu{
+    list-style: none;
+    margin-right: 15px;
+    padding-top: 15px;
+    width: 100%;
+}
+
+.menu li{
+    display: inline-block;
+    position: relative;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px 25px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu li a:hover{
+    color: red;
+    transition: 0.5s;
+}
+
+.drop{
+    display: none;
+    position: absolute;
+    direction: ltr;
+    padding-top: 14px;
+}
+
+.menu li:hover ul.drop{
+    display: block;
+}
+
+.drop li{
+    background-image: url("https://www.jowhareh.com/images/Jowhareh/galleries_2/poster_9b004c6c-1912-4c31-904d-598f7f8f34fd.jpeg");
+    display: block;
+    width: 130px;
+    text-align: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.drop li a{
+    color: black;
+    font-size: 18px;
+}
+
+.logo-1 img {
+    width: 105px;
+    height: auto;
+}
+
+.center{
+    color: white;
+    margin: 0 auto;
+    width: 60%;
+    padding: 20px;
+    text-align: center;
+    direction: rtl;
+}
+
+.center h2{
+    padding: 20px;
+}
+
+.center img{
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    margin-top: 10%;
+}
+
+.center p{
+    padding: 20px;
+    font-size: 20px;
+}
+
+.back-body{
+    padding: 0;
+    height: 100vh;
+    justify-self: center;
+    align-items: center;
+    margin-left: 390px;
+    width: 100%;
+}
+
+.slider{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    justify-self: center;
+    align-items: center;
+    display: flex;
+}
+
+.img-slide{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.img-slider{
+    width: 500%;
+    height: 500px;
+    display: flex;
+    animation: slide 17.5s infinite;
+}
+
+.img-slider input{
+    display: none;
+}
+
+.cover{
+    width: 20%;
+    transition: 2s;
+}
+
+.cover img{
+    width: 800px;
+    height: 500px;
+}
+
+@keyframes slide {
+    0%{
+        transform: translateX(0%);
+    }
+    20%{
+        transform: translateX(-20%);
+    }
+    40%{
+        transform: translateX(-40%);
+    }
+    60%{
+        transform: translateX(-60%);
+    }
+    80%{
+        transform: translateX(-80%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+.center-2{
+    color: white;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    direction: rtl;
+    padding-bottom: 40px;
+}
+
+.center-2 p{
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+footer{
+    width: 100%;
+    bottom: 0;
+    background-image: url("https://www.jowhareh.com/images/Jowhareh/galleries_2/poster_9b004c6c-1912-4c31-904d-598f7f8f34fd.jpeg");
+    background-size: cover;
+    background-position: center;
+    color: #000;
+    border-top-left-radius: 125px;
+    font-size: 18px;
+    line-height: 20px;
+    direction: rtl;
+}
+
+.top{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.col h3{
+    padding: 30px;
+    margin-right: 25%;
+}
+
+.col-1{
+    text-align: center;
+    padding: 40px;
+    margin-left: 30px;
+}
+
+.col-1 h3{
+    padding: 40px;
+}
+
+.col-2 li{
+    list-style: none;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.col-2 li a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.5s ease-in;
+}
+
+.col-2 li a:hover{
+    font-weight: bold;
+    font-size: 28px;
+    color: red;
+    transition: 0.5s ease-out;
+}
+
+.col-3{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.col-3 form input,
+.col-3 form button{
+    margin-bottom: 1rem;
+    padding: 10px;
+    border:  1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+form{
+    padding: 20px;
+    display: flow;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+form input{
+    width: 100%;
+    padding: 20px;
+}
+
+.social-media .fab{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #000;
+    margin-right: 8px;
+    transition: 0.5s ease-in;
+}
+
+.social-media .fab:hover{
+    transform: scale(1.2);
+    font-weight: bold;
+    transition: 0.5s ease-out;
+}

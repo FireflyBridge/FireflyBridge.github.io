@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task8.5</title>
+
+ <style>
+     
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    justify-self: center;
+    align-items: center;
+    background: darkgray;
+    margin-left: 390px;
+}
+
+.slider{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    justify-self: center;
+    align-items: center;
+    display: flex;
+}
+
+.img-slide{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.img-slider{
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+
+.img-slider input{
+    display: none;
+}
+
+.cover{
+    width: 20%;
+    transition: 2s;
+}
+
+.cover img{
+    width: 800px;
+    height: 500px;
+}
+
+.nav-a{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.m-btn{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.m-btn:not(:last-child){
+    margin-right: 30px;
+}
+.m-btn:hover{
+    background-color: gold;
+}
+
+#radio1:checked ~.first{
+    margin-left: 0;
+}
+
+#radio2:checked ~.first{
+    margin-left: -20%;
+}
+
+#radio3:checked ~.first{
+     margin-left: -40%;
+}
+
+#radio4:checked ~.first{
+    margin-left: -60%;
+}
+
+.auto-slider{
+    position: absolute;
+    width: 800px;
+    margin-top: 460px;
+    display: flex;
+    justify-content: center;
+}
+.auto-slider div{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.auto-slider div:not(:last-child){
+    margin-right: 30px;
+    justify-content: center;
+}
+#radio1:checked ~ .auto-slider .a-b1{
+    background-color: blue;
+}
+#radio2:checked ~ .auto-slider .a-b2{
+    background-color: blue;
+}
+#radio3:checked ~ .auto-slider .a-b3{
+     background-color: blue;
+}
+#radio4:checked ~ .auto-slider .a-b4{
+    background-color: blue;
+}
+
+ </style>
+
+</head>
+
+<body>
+<section class="slider">
+    
+    <div class="img-slide">
+
+        <div class="img-slider">
+
+                <input type="radio" name="input-radio" id="radio1">
+                <input type="radio" name="input-radio" id="radio2">
+                <input type="radio" name="input-radio" id="radio3">
+                <input type="radio" name="input-radio" id="radio4">
+
+                <div class="cover first">
+                    <img src="https://cdn.fararu.com/files/fa/news/1401/9/27/1409312_253.jpeg">
+                </div>
+
+                <div class="cover">
+                    <img src="https://cdn.fararu.com/files/fa/news/1401/9/27/1409307_526.jpg">
+                </div>
+
+                <div class="cover">
+                    <IMG src="https://cdn.fararu.com/files/fa/news/1401/9/27/1409310_786.jpg">
+                </div>
+
+                <div class="cover">
+                    <img src="https://media.imna.ir/d/2023/11/05/3/1939361.jpg?ts=1699184449000">
+                </div>
+
+                <div class="auto-slider">
+                    <div class="a-b1"></div>
+                    <div class="a-b2"></div>
+                    <div class="a-b3"></div>
+                    <div class="a-b4"></div>
+                </div>
+
+            </div>
+
+        <div class="nav-a">
+            <LABEL for="radio1" class="m-btn"></LABEL>
+            <LABEL for="radio2" class="m-btn"></LABEL>
+            <LABEL for="radio3" class="m-btn"></LABEL>
+            <LABEL for="radio4" class="m-btn"></LABEL>
+        </div>
+
+    </div>
+    
+</section>
+
+</body>
+</html>
