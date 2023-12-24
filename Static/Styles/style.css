@@ -200,6 +200,18 @@ nav ul {
     color: #592e87;
 }
 
+.gp-badge {
+    display: inline-block;
+    background-color: #5D3587;
+    padding: 10px;
+    color: #fefefe;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
 @media screen and (max-width: 650px) {
     header {
         flex-direction: column;
