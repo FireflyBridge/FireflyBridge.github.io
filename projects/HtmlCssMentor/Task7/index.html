@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task7</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        body{
+            width:100%;
+            height:100vh;
+            background-color: rgb(31, 31, 61);
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1em;
+        }
+        button:nth-child(1){
+            position: relative;
+            padding:.5em 1em .5em 1em;
+            color:#cccccc;
+            border-radius:.2em;
+            /* background-image: linear-gradient(rgb(255, 0, 76),rgb(240, 5, 240)); */
+            background-color: rgba(119, 0, 255, 0.411);
+            border: 1px solid rgb(204, 164, 250);
+            /* box-shadow: 0 0 15px rgb(255, 0, 76); */
+            font-size: 1.5em;
+            transition: all 1s;
+            overflow: hidden;
+        }
+        button:nth-child(1):after{
+            content:"";
+            left: 0;
+            top: 0;
+            width:20%;
+            height:100%;
+            position:absolute;
+            left:-50%;
+            z-index:1;
+            color:#fff;
+            background-color: rgba(211, 211, 211, 0.438);
+            transform: skewX(30deg);
+            opacity: 0;
+            transition-delay: .5s;
+            transition: all 1s;
+        }
+        button:nth-child(1):before{
+            content:"";
+            left: 0;
+            top: 0;
+            width:10%;
+            height:100%;
+            position:absolute;
+            left:-50%;
+            z-index:1;
+            color:#fff;
+            background-color: rgba(211, 211, 211, 0.438);
+            transform: skewX(30deg);
+            opacity: 0;
+            transition: all 1s;
+        }
+        button:nth-child(1):hover{
+            cursor: pointer;
+            letter-spacing:.1em;
+            background-image:linear-gradient(rgba(119, 0, 255, 0.411),rgba(225, 0, 255, 0.411));
+            transition: background .5s;
+            transition: letter-spacing .5s;
+        }
+        button:nth-child(1):hover::after{
+            left:110%;
+            opacity: 1;
+            transition: all 1s;
+        }
+        button:nth-child(1):hover::before{
+            left:110%;
+            opacity: 1;
+            transition: all 1s;
+            transition-delay: .1s;
+        }
+        button:nth-child(2){
+            position: relative;
+            padding:.5em 1em .5em 1em;
+            color:rgb(255, 255, 255);
+            border-radius:.2em;
+            /* background-image: linear-gradient(rgb(255, 0, 76),rgb(240, 5, 240)); */
+            background-color: rgba(255, 255, 255, 0.384);
+            border: 1px solid rgb(255, 255, 255);
+            /* box-shadow: 0 0 15px rgb(255, 0, 76); */
+            font-size: 1.5em;
+            transition: all 1s;
+            backdrop-filter: blur(8px);
+
+        }
+        button:nth-child(2):after{
+            content:"";
+            left: 0;
+            top: 0;
+            width:100%;
+            height:100%;
+            position:absolute;
+            left:0;
+            top:0;
+            z-index:1;
+            color:#fff;
+            background-image: linear-gradient(rgb(0, 153, 255),rgb(0, 255, 179));
+            box-shadow: 0 5px 15px 2px rgb(0, 153, 255),0 0 15px 2px rgb(0, 255, 179);
+            border-radius: .5em;
+            transform: scale(0);
+            z-index: -1;
+            transition: all .5s;
+        }
+        button:nth-child(2):hover{
+            cursor: pointer;
+            color:rgb(43, 43, 43);
+            border: 1px solid rgb(43, 5, 87);
+            transition:  all .5s;
+        }
+        button:nth-child(2):hover::after{
+            transform: scale(1);
+            transition:  all .5s;
+        }
+    </style>
+</head>
+<body>
+    <button>BUTTON</button>
+    <button>BUTTON</button>
+</body>
+</html>
