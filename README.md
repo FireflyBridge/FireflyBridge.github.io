@@ -1,6 +1,6 @@
-# WEB GEEKS
+# Firefly
 
-The group of Web Geek interns
+The group of Firefly interns
 
 **☆*: .｡. o(≧▽≦)o .｡.:*☆**
 
