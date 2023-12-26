@@ -93,7 +93,11 @@ nav ul {
 }
 
 .menu li:hover ul.dropdown {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 200px;
+    flex-direction: column;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     border-radius: .5em;
     overflow: hidden;
@@ -106,6 +110,7 @@ nav ul {
     padding: .5em;
     background-color: #fff;
     color: #0e0e0e;
+    width: 100%;
     transition: background-color .5s, color 0.5s;
     -webkit-transition: background-color .5s, color 0.5s;
     -moz-transition: background-color .5s, color 0.5s;
@@ -136,6 +141,10 @@ nav ul {
 
 .dropdown li a {
     color: inherit;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
 }
 
 .logo h1 {
@@ -211,6 +220,8 @@ nav ul {
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
 }
+
+
 
 @media screen and (max-width: 650px) {
     header {
