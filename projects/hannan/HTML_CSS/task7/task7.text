@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title> task7</title>
+    </head>
+    <style>
+        button{
+            position: absolute;
+            width: 130px;
+            height: 50px;
+            margin-top: 25%;
+            margin-left: 50%;
+            text-align: center;
+            border-radius: 5px;
+            background-color:black;
+            color: antiquewhite;
+            padding: 5px;
+            overflow: hidden;
+        }
+        button:hover{
+            position: absolute;
+            transition: 3s;
+            transform: scale(1.3,1.3);
+            
+        }
+        button::before{
+            content:"uwu";
+            position:absolute;
+            right: -100%;
+            width:130px;
+            height: 100px;
+            background-color:rgb(89, 89, 218);
+            transition: 3s;
+            transform:scale(0,2);
+            opacity: 0.6;
+        }
+        button::after{
+            content: "uwu";
+            position:absolute;
+            right: -130%;
+            width: 130px;
+            height: 100px;
+            transition: 3s;
+            background-color: rgb(89, 89, 218);
+            transition: 3s;
+            transform:scale(2,0);
+            opacity: 0.6;
+        
+        }
+        button:hover::before{
+            background-color:rgb(89, 89, 218);
+            position: absolute;
+            widt: 130px;
+            height: 100px;
+            right:50%;
+            transition:3s;
+            transform: scale(2,2);
+            
+        }
+        button:hover::after{
+            background-color:rgb(89, 89, 218);
+            position: absolute;
+            width:130px;
+            height: 100px;
+            right:50%;
+            transition:3s;
+            transform: scale(2,2);
+           
+        }
+    </style>
+    <body>
+   <button>button</button>>
+    </body>
+    </html>
